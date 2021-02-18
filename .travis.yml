@@ -5,14 +5,7 @@ python:
 install:
   - python -m venv .\venv
   - .\venv\Scripts\activate.bat
-  - pip install configparser
-  - pip install requests
-  - pip install pytest
-  - pip install pytest-bdd
-  - pip install pytest-html
-  - pip install jsonpath
+  - pip install -r requirements.txt
 # command to run tests
-rootdir: /home/travis/build/shehla61297/DigititalWalletAutomationTesting\automation
-python -m venv .\venv
 
 script: pytest
