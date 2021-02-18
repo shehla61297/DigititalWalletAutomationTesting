@@ -1,6 +1,5 @@
 configparser
 requests
-pytest
 pytest-bdd
 jsonpath
 pytest-html
