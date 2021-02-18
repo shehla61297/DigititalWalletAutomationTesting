@@ -3,7 +3,12 @@ python:
   - "3.6"
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install configparser
+  - pip install requests
+  - pip install pytest
+  - pip install pytest-bdd
+  - pip install pytest-html
+  - pip install jsonpath
 # command to run tests
 rootdir: /home/travis/build/shehla61297/DigititalWalletAutomationTesting\automation
 script: pytest
