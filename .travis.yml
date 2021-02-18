@@ -3,6 +3,8 @@ python:
   - "3.6"
 # command to install dependencies
 install:
+  - python -m venv .\venv
+  - .\venv\Scripts\activate.bat
   - pip install configparser
   - pip install requests
   - pip install pytest
@@ -11,4 +13,6 @@ install:
   - pip install jsonpath
 # command to run tests
 rootdir: /home/travis/build/shehla61297/DigititalWalletAutomationTesting\automation
+python -m venv .\venv
+
 script: pytest
