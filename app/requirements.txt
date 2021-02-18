@@ -1,0 +1,8 @@
+verity-sdk==0.4.3
+aiohttp==3.5.4
+pyqrcode==1.2.1
+pypng==0.0.20
+halo==0.0.29
+jinja2==2.11.2
+aiohttp_jinja2==1.4.2
+psycopg2-2.8.6
